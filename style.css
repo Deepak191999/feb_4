@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    background-color:white;
+    height: 100vh;
+
+}
+.top
+{
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    padding: 0px 80px;
+    align-items: center;
+}
+.img img
+{
+    height: 80px;
+    width: 180px;
+}
+.ul
+{
+    display: flex;
+    /* flex-grow: 1; */
+    list-style: none;
+    gap:50px;
+    font-size: 30px;
+    font-weight: 300;
+    color: black;
+}
+.items
+{
+    flex: 1;
+    padding-left: 100px;
+}
+.contact button
+{
+    /* margin: 20px; */
+    padding:12px 22px;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.img,.items
+{
+    cursor: pointer;
+}
+.hero
+{
+    padding: 0px 80px;
+    display: flex;
+   
+}
+.text-section
+{
+    max-width: 700px;
+    margin-top: 90px;
+}
+.text-section h1
+{
+    color: rgb(31, 10, 109);
+    font-size: 70px;
+
+}
+.text-section h1 span
+{
+
+    color: blue;
+}
+.text-section p
+{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.service
+{
+    margin-left: 50px;
+}
+.service button
+{
+  padding: 10px 15px;
+  background-color: blue;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    margin-top: 50px;
+}
+.img-section img
+{
+    height:80vh;
+    width: 50vw;
+}
